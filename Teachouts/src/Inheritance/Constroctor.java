@@ -4,6 +4,8 @@ parameter constructor: Create with fields in the Order: ( int id, String name, d
 
 package Inheritance;
 
+import java.util.Scanner;
+
 public class Constroctor {
  {
 	    
@@ -15,11 +17,14 @@ public class Constroctor {
 
 	 
 
-	    public Employee()  //constructor
+	    public Employee()  
 	    {
 	        
 	    }
-	    public Employee(int id, String name, double basicSalary, double HRAPer, double DAPer) { //Parameterized constructor
+	    
+	    
+	    public void Employee(int id, String name, double basicSalary, double HRAPer, double DAPer) 
+	    {
 	        
 	        this.id = id;
 	        this.name = name;
@@ -36,7 +41,9 @@ public class Constroctor {
 	        return toatl;
 	}
 	    
-	    public static void main(String[] args) { //main method
+	    public void main(String[] args) { //main method
+	    	
+	    	
 	        Scanner sc = new Scanner(System.in);
 	        System.out.println("enter ID");
 	        int id = sc.nextInt();
@@ -63,9 +70,9 @@ public class Constroctor {
 	 
 
 	    public String toString() {
-	        return "Employee [id=" + id + ", name=" + name + ", basicSalary=" + basicSalary + ", HRAPer=" + HRAPer
-	                + ", DAPer=" + DAPer + "]";
-	    };
+	        return "Employee [id=" + id + ", name=" + name + ", basicSalary=" + basicSalary + ", HRAPer=" + HRAPer+ ", DAPer=" + DAPer + "]";
+	    }
+	    
 	    }
 }
 

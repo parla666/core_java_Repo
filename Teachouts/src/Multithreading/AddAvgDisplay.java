@@ -2,11 +2,11 @@ package Multithreading;
 import java.lang.*;
 import java.util.*;
 //Thread A(for arithmetic operation)
-class add  extends Thread {
+class AddAvgDisplay  extends Thread {
 	
 		int i,j;
 		//Parameterized contractor to initialize instance variable
-		add(int x,int y)
+		AddAvgDisplay(int x,int y)
 		{
 			i=x;
 			j=y;
@@ -44,15 +44,16 @@ public static void main(String arg[])
 	System.out.println("ENTER TWO VALUES");
 	int x=s.nextInt();
 	int y=s.nextInt();
-add a1=new add(x,y);
+	AddAvgDisplay1  = new AddAvgDisplay(x,y);
 Avg a2=new Avg(x,y);
 a1.start();
 a2.start();
 }
+
+
+
+
 }
 
-
-
 }
-
 }
