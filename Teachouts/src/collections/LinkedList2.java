@@ -72,6 +72,7 @@ public class LinkedList2 {
 
 		lt.clear();
 		System.out.println("removing all the elements : " + lt);
+		System.out.println("removing all the elements : " + lt);
 
 	}
 
