@@ -1,5 +1,5 @@
 package Array;
-public class RowsAndColoum
+public class ThreeByThree  {
 public static void main(String args[]){  
 	//declaring and initializing 2D array  
 	int arr[][]={{1,2,3},{2,4,5},{4,4,5}};  

@@ -13,7 +13,7 @@ public class LinkedList2 {
 		lt.add("sujith 6");
 		lt.add("charan 7");
 		lt.add("akhila 8");
-		lt.add("pravallika 9");
+		lt.add("kjhgd 9");
 		lt.add("sumanth 10");
 		System.out.println("initial list of the elements :" + lt);
 
@@ -23,12 +23,8 @@ public class LinkedList2 {
 		System.out.println("after invoking remove index :" + lt);
 
 		// remove element from the basic of specic position
-        System.out.println("hiiiiiii");
-        lt.remove(0);
-        System.out.println("removed 0");
-        System.out.println(lt);
+
 		lt.remove(5);
-		System.out.println("hi");
 
 		System.out.println("after removing with value position :" + lt);
 
@@ -71,7 +67,6 @@ public class LinkedList2 {
 		// REMOVE ALL THE ELEMENTS AVAILABLE FROM THE LIST
 
 		lt.clear();
-		System.out.println("removing all the elements : " + lt);
 		System.out.println("removing all the elements : " + lt);
 
 	}

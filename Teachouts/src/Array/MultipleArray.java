@@ -3,7 +3,7 @@
 public static int[] getMultiplesArray(int number). 
 
 This method should create a new integer array of size 10 and fill it with the multiples (multiples 1 to 10) of the given number. 
-and return the array.*/ff56
+and return the array.*/
 
 
 package Array;

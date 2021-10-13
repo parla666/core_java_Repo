@@ -22,7 +22,7 @@ public class Teacher2 {
 				System.out.println(" i like that Teaching");
 			   }
 			}		   
-            public class Parla extends Teacher{
+             class Parla extends Teacher{
 	       String mainSubject = "Physics";
 	       public static void main(String args[]){
 		Parla obj = new Parla();
@@ -44,19 +44,8 @@ public class Teacher2 {
 			return null;
 		}
 	}
+             
 		   
 		   
 		   
-		   
-		   
-		   
-		   
-		   
-		   
-		   
-		   
-		   
-		   
-		   
-		   
-}
+		  

@@ -1,7 +1,7 @@
 package Array;
 
 
-	public class SumOfDiagonals {
+	class SumOfDiagonals {
 		
 		public static void main(String[] args) {
 			
@@ -17,4 +17,3 @@ package Array;
 
 		}
 	}
-}
